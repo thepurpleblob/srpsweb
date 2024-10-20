@@ -4,11 +4,11 @@ services:
             context: .
             dockerfile: Dockerfile
         ports:
-            - 8082:80
+            - 8083:80
     directus:
         image: directus/directus:11.1.0
         ports:
-            - 8056:8055
+            - 8057:8055
         volumes:
             - ./database:/directus/database
             - ./uploads:/directus/uploads
@@ -22,4 +22,4 @@ services:
             WEBSOCKETS_ENABLED: "true"
 
 
-        
+
