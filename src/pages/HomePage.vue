@@ -50,8 +50,8 @@
                     </div>
                 </a>
 
-                <!-- Museum -->
-                <a href="https://srpsrailtours.co.uk/" class="srps-link">
+                <!-- Railtours -->
+                <a href="https://www.srpsrailtours.co.uk/" class="srps-link">
                     <div class="row bg-red text-white q-px-md srps-redirect">
                         <div class="col-4 srps-rel">
                             <img src="~assets/Railtours.png" class="srps-image absolute-center" />
