@@ -1,7 +1,7 @@
 <template>
 
     <div class="row justify-evenly">
-        <div class="srps-preamble">
+        <div class="srps-preamble text-center">
             <h4>Welcome to the Scottish Railway Preservation Society</h4>
 
             <p>A volunteer-led organisation dedicated to the
@@ -24,7 +24,7 @@
                         <div class="col-4 srps-rel">
                             <img src="~assets/bklogo.png" class="srps-image absolute-center" />
                         </div>
-                        <div class="col-8 q-pt-md text-center">
+                        <div class="col-8 q-py-md text-center">
                             Travel on Scotland's Heritage railway by the Firth of Forth and
                             take a trip on the train to Kinneil, Birkhill and Manuel,
                             experiencing travel of a bygone era. Enjoy Afternoon Teas,
@@ -41,7 +41,7 @@
                         <div class="col-4 srps-rel">
                             <img src="~assets/museum-logo.png" class="srps-image absolute-center" />
                         </div>
-                        <div class="col-8 q-pt-md text-center text-white">
+                        <div class="col-8 q-py-md text-center text-white">
                             Located on a separate site near Bo'ness station, the Museum
                             houses one of the largest collections of railway artefacts in
                             the UK and promotes education of railways in Scotland and of
@@ -56,11 +56,11 @@
                         <div class="col-4 srps-rel">
                             <img src="~assets/Railtours.png" class="srps-image absolute-center" />
                         </div>
-                        <div class="col-8 q-pt-md text-center text-white">
+                        <div class="col-8 q-py-md text-center text-white">
                             Britain's longest established operator of scenic railway
                             excursions, SRPS Railtours Limited offers excursions to view the
                             splendour of Scotland, visit historic towns and cities or enjoy
-                            heritage steam and diesel trac5on around the UK mainline in
+                            heritage steam and diesel traction around the UK mainline in
                             partnership with the Royal Scot General Trust and Locomotive
                         </div>
                     </div>
