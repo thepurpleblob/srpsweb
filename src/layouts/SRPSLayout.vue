@@ -1,23 +1,18 @@
 <template>
-  <q-layout view="hhh lpr fff" class="bg-grey-8">
-    <q-header elevated class="bg-primary text-white" height-hint="98">
-      <q-toolbar>
-        <q-toolbar-title class="q-pt-lg">
-          <strong>Scottish Railway Preservation Society</strong>
-          <!-- <img src="~assets/railtourh.png" /> -->
-        </q-toolbar-title>
-      </q-toolbar>
+  <q-layout view="hhh lpr fff" class="bg-white">
+    <q-header elevated class="row bg-primary text-white q-py-md" height-hint="98">
+      <div class="col-auto">
+        <img src="~assets/SRPSLogo200.png" />
+      </div>
 
-      <!--
-      <q-tabs align="left">
-        <q-route-tab to="/page1" label="Page One" />
-        <q-route-tab to="/page2" label="Page Two" />
-        <q-route-tab to="/page3" label="Page Three" />
-      </q-tabs>
-      -->
+      <div class="col srps-nav">
+        <q-tabs align="left" class="q-mt-xl">
+          <q-route-tab to="/" label="Home" />
+        </q-tabs>
+      </div>
     </q-header>
 
-    <q-page-container class="">
+    <q-page-container class="bg-white">
       <router-view />
     </q-page-container>
 
@@ -129,3 +124,8 @@
     </q-footer>
   </q-layout>
 </template>
+
+<style lang="sass">
+.srps-nav
+  align-items: center
+</style>
