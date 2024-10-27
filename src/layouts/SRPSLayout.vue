@@ -1,22 +1,22 @@
 <template>
   <q-layout view="hhh lpr fff" class="bg-white">
-    <q-header elevated class="row bg-primary text-white q-py-md" height-hint="98">
-      <div class="col-auto">
-        <img src="~assets/SRPSLogo200.png" />
-      </div>
+    <q-header elevated class="srps-brand q-py-md" height-hint="98">
+      <q-toolbar class="q-pt-md">
+        <q-toolbar-title class="text-center">
+            <img src="~assets/SRPSLogo200.png" />
+        </q-toolbar-title>
+      </q-toolbar>
 
-      <div class="col srps-nav">
-        <q-tabs align="left" class="q-mt-xl">
+        <q-tabs align="left">
           <q-route-tab to="/" label="Home" />
         </q-tabs>
-      </div>
     </q-header>
 
     <q-page-container class="bg-white">
       <router-view />
     </q-page-container>
 
-    <q-footer class="bg-grey-8 text-white">
+    <q-footer class="srps-brand">
       <div class="row q-pa-md">
         <div class="col">
           <div class="row justify-start">
@@ -67,20 +67,6 @@
           <q-list dense padding>
             <q-item>
               <q-item-section>
-                <a class="text-white" href="https://www.srpsrailtours.co.uk/"
-                  >SRPS Railtours</a
-                >
-              </q-item-section>
-            </q-item>
-            <q-item>
-              <q-item-section>
-                <a class="text-white" href="https://www.bkrailway.co.uk/"
-                  >Bo'ness & Kinneil Railway</a
-                >
-              </q-item-section>
-            </q-item>
-            <q-item>
-              <q-item-section>
                 <a class="text-white" href="https://www.srpsdiesel.co.uk"
                   >SRPS Diesel Group</a
                 >
@@ -88,18 +74,8 @@
             </q-item>
             <q-item>
               <q-item-section>
-                <a
-                  class="text-white"
-                  href="https://museumofscottishrailways.org.uk/"
-                  >Museum of Scottish Railways</a
-                >
-              </q-item-section>
-            </q-item>
-            <q-item>
-              <q-item-section>
                 <a class="text-white" href="https://www.srpssteam.com/"
-                  >SRPS Steam Group</a
-                >
+                  >SRPS Steam Group</a>
               </q-item-section>
             </q-item>
             <q-item>
@@ -128,4 +104,7 @@
 <style lang="sass">
 .srps-nav
   align-items: center
+.srps-brand
+    background: #003149
+    color: white
 </style>

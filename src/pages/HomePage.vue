@@ -102,6 +102,34 @@
         </div>
     </a>
 
+    <!-- Affiliation links-->
+            <div class="srps-affiliate-links">
+                <div class="row flex-center">
+                    <div class="col srps-affil text-center">
+                        <q-img class="srps-assoc" src="~assets/heritage-logo-180.png" fit="scale-down"/>
+                    </div>
+                    <div class="col srps-affil text-center">
+                        <a href="https://railway200.co.uk/">
+                            <q-img class="srps-assoc" src="~assets/railway200-logo-180.png" fit="scale-down" />
+                        </a>
+                    </div>
+                    <div class="col srps-affil text-center">
+                        <a href="https://www.visitscotland.com/">
+                            <q-img class="srps-assoc" src="~assets/TouristBoard-small.png" fit="scale-down" />
+                        </a>
+                    </div>
+                    <div class="col srps-affil text-center">
+                        <a href="https://www.goindustrial.co.uk/">
+                            <q-img class="srps-assoc" src="~assets/goindustrial.png" fit="scale-down" />
+                        </a>
+                    </div>
+                    <div class="col srps-affil text-center">
+                        <a href="https://www.hra.uk.com/">
+                            <q-img class="srps-assoc" src="~assets/hra-180.png" fit="scale-down" />
+                        </a>
+                    </div>
+                </div>
+            </div>
 </template>
 
 
@@ -115,6 +143,8 @@
 .brand-railtours
     background: #6b0319
     color: #fddf51
+.srps-affil
+    max-width: 200px !important
 .srps-link
     color: inherit
     text-decoration: inherit
@@ -132,5 +162,6 @@
     font-size: 120%
 .srps-rel
     position: relative
-
+.srps-affiliate-links
+    border-top: solid #003149 5px
 </style>
