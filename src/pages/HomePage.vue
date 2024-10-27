@@ -15,6 +15,29 @@
     </div>
 
     <!-- BKR  -->
+    <!--
+    <a href="https://www.bkrailway.co.uk" class="srps-link">
+        <div class="column flex-center brand-bkr">
+            <div class="col srps-800">
+                <div class="row srps-redirect">
+                    <div class="col-4 srps-rel">
+                        <q-img src="~assets/bklogo.png" class="absolute-center" fit="scale-down"/>
+                    </div>
+                    <div class="col-8 sprs-rel">
+                        <q-img src="~assets/bkr-image512.png"  class="relative-center" fit="scale-down" />
+                    </div>
+                </div>
+            </div>
+            <div class="col srps-800 text-center">
+                Travel on Scotland's Heritage railway by the Firth of Forth and
+                take a trip on the train to Kinneil, Birkhill and Manuel,
+                experiencing travel of a bygone era. Enjoy Afternoon Teas,
+                dining trains, special galas, Santa trains or character days like
+                Days Out With Thomas&trade; - there's something for everyone!
+            </div>
+        </div>
+    </a>
+    -->
     <a href="https://www.bkrailway.co.uk" class="srps-link">
         <div class="column flex-center brand-bkr">
             <div class="col srps-800">
@@ -23,7 +46,7 @@
                         <q-img src="~assets/bklogo.png" class="absolute-center" fit="scale-down"/>
                     </div>
                     <div class="col-8">
-                        <q-img src="~assets/bkr-image512.png" />
+                        <img src="~assets/bkr-image512.png" fit="cover" />
                     </div>
                 </div>
             </div>
@@ -46,7 +69,7 @@
                         <q-img src="~assets/museum-logo.png" class="absolute-center" fit="scale-down"/>
                     </div>
                     <div class="col-8">
-                        <q-img src="~assets/museum512.png" />
+                        <img src="~assets/museum512.png" />
                     </div>
                 </div>
             </div>
@@ -68,7 +91,7 @@
                         <q-img src="~assets/Railtours.png" class="absolute-center" fit="scale-down"/>
                     </div>
                     <div class="col-8">
-                        <q-img src="~assets/railtours512.png" />
+                        <img src="~assets/railtours512.png" />
                     </div>
                 </div>
             </div>
