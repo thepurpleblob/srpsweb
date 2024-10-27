@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col srps-800 text-center">
+            <div class="col srps-800 text-center q-pbmd">
                 Travel on Scotland's Heritage railway by the Firth of Forth and
                 take a trip on the train to Kinneil, Birkhill and Manuel,
                 experiencing travel of a bygone era. Enjoy Afternoon Teas,
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col srps-800 text-center">
+            <div class="col srps-800 text-center q-pb-md">
                 Located on a separate site near Bo'ness station, the Museum
                 houses one of the largest collections of railway artefacts in
                 the UK and promotes education of railways in Scotland and of
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col srps-800 text-center">
+            <div class="col srps-800 text-center q-pb-md">
                 Britain's longest established operator of scenic railway
                 excursions, SRPS Railtours Limited offers excursions to view the
                 splendour of Scotland, visit historic towns and cities or enjoy
@@ -106,14 +106,14 @@
     </a>
 
     <!-- Shop  -->
-    <a href="https://www.srpsrailtours.co.uk/" class="srps-link">
+    <a href="https://shop.srps.org.uk/" class="srps-link">
         <div class="column flex-center bg-white text-black">
             <div class="col srps-800">
                 <div class="row srps-redirect">
                     <div class="col-4 srps-rel">
                         <q-img src="~assets/shop_logo.png" class="absolute-center" fit="scale-down"/>
                     </div>
-                    <div class="col-8 q-pt-lg">
+                    <div class="col-8 q-py-lg">
                         The SRPS online shop offers items for sale that are relevant to
                         Scottish Railway history such as books and paintings. It also
                         offers exclusive limited edition models of locomotives or rolling
