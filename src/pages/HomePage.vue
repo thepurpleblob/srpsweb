@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col srps-800 text-center q-pbmd">
+            <div class="col srps-800 text-center q-pb-md">
                 Travel on Scotland's Heritage railway by the Firth of Forth and
                 take a trip on the train to Kinneil, Birkhill and Manuel,
                 experiencing travel of a bygone era. Enjoy Afternoon Teas,
@@ -113,13 +113,13 @@
                         </a>
                     </div>
                     <div class="col srps-affil text-center">
-                        <a href="https://www.visitscotland.com/">
-                            <q-img class="srps-assoc" src="~assets/TouristBoard-small.png" fit="scale-down" />
+                        <a href="https://www.goindustrial.co.uk/">
+                            <q-img class="srps-assoc" src="~assets/goindustrial-175.png" fit="scale-down" />
                         </a>
                     </div>
                     <div class="col srps-affil text-center">
-                        <a href="https://www.goindustrial.co.uk/">
-                            <q-img class="srps-assoc" src="~assets/goindustrial.png" fit="scale-down" />
+                        <a href="https://www.visitscotland.com/">
+                            <q-img class="srps-assoc" src="~assets/TouristBoard-small.png" fit="scale-down" />
                         </a>
                     </div>
                     <div class="col srps-affil text-center">
@@ -142,9 +142,6 @@
 .brand-railtours
     background: #6b0319
     color: #fddf51
-srps-banner-image
-    overflow: hidden !important
-    position: relative
 .srps-affil
     max-width: 200px !important
 .srps-link
