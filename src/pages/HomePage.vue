@@ -105,7 +105,9 @@
             <div class="srps-affiliate-links">
                 <div class="row flex-center">
                     <div class="col srps-affil text-center">
-                        <q-img class="srps-assoc" src="~assets/heritage-logo-180.png" fit="scale-down"/>
+                        <a href="https://www.museumsgalleriesscotland.org.uk/recognition/recognised-collections/">
+                            <q-img class="srps-assoc" src="~assets/heritage-logo-180.png" fit="scale-down"/>
+                        </a>
                     </div>
                     <div class="col srps-affil text-center">
                         <a href="https://railway200.co.uk/">
