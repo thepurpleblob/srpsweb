@@ -46,7 +46,7 @@
             </p>
             <p>
               Operators of Bo'ness and Kinneil Railway and Museum of Scottish
-              Raulways. A Scottish Charity, SC002375, regulated by the Scottish
+              Railways. A Scottish Charity, SC002375, regulated by the Scottish
               Charity Regulator.
             </p>
           </div>
