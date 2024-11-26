@@ -35,8 +35,8 @@
             <p class="mb-2">For additional information, please see the following PDF documents:</p>
             <ul class="mb-2 list-inside list-disc">
                 <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" :href="AAUrl">Articles of Association</a></li>
-                <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="@/assets/Memorandum_of_Association.pdf">Memorandum of Association</a></li>
-                <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="@/assets/SRPS_Education_Policy.pdf">SRPS Education Policy</a></li>
+                <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" :href="MAUrl">Memorandum of Association</a></li>
+                <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" :href="EPUrl">SRPS Education Policy</a></li>
             </ul>
 
             <h4 class="font-bold mb-2">Railways in Scotland</h4>
@@ -94,4 +94,6 @@
 
 <script setup lang="ts">
     import AAUrl from '@/assets/Articles_of_Association.pdf';
+    import MAUrl from '@/assets/Memorandum_of_Association.pdf';
+    import EPUrl from '@/assets/SRPS_Education_Policy.pdf';
 </script>

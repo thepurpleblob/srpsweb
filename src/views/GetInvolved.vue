@@ -14,7 +14,7 @@
 
             <div class="flex gap-4 mt-4">
                 <div class="flex flex-col">
-                    <a href="@/assets/membform.pdf" download class="btn btn-outline btn-info mb-3">Membership form</a>
+                    <a :href="MFUrl" download class="btn btn-outline btn-info mb-3">Membership form</a>
                     <p class="mb-3">
                         If you are a UK taxpayer, please consider Gift Aid when applying.
                     </p>
@@ -89,5 +89,5 @@
 </template>
 
 <script setup lang="ts">
-
+    import MFUrl from '@/assets/membform.pdf';
 </script>
