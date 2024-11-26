@@ -34,7 +34,7 @@
             </ul>
             <p class="mb-2">For additional information, please see the following PDF documents:</p>
             <ul class="mb-2 list-inside list-disc">
-                <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="@/assets/Articles_of_Association.pdf">Articles of Association</a></li>
+                <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" :href="AAUrl">Articles of Association</a></li>
                 <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="@/assets/Memorandum_of_Association.pdf">Memorandum of Association</a></li>
                 <li><a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="@/assets/SRPS_Education_Policy.pdf">SRPS Education Policy</a></li>
             </ul>
@@ -91,3 +91,7 @@
         </div>
     </main>
 </template>
+
+<script setup lang="ts">
+    import AAUrl from '@/assets/Articles_of_Association.pdf';
+</script>
