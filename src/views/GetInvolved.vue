@@ -89,5 +89,5 @@
 </template>
 
 <script setup lang="ts">
-    import MFUrl from '@/assets/membform.pdf';
+    import MFUrl from '@/assets/membform2025.pdf';
 </script>
