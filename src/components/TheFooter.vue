@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <footer class="footer bg-[#003149] text-white py-6 px-2">
+    <fwb-footer class="footer bg-[#003149] text-white py-6 px-2">
 
         <nav>
             <h6 class="footer-title">About</h6>
@@ -55,5 +55,5 @@
             </div>
         </nav>
 
-    </footer>
+    </fwb-footer>
 </template>

@@ -3,6 +3,7 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import '../node_modules/flowbite-vue/dist/index.css';
 
 /* import the fontawesome stuff */
 import { library } from '@fortawesome/fontawesome-svg-core';
