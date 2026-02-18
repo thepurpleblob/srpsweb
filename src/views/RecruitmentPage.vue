@@ -34,7 +34,7 @@
 
 </template>
 
-<script setup>
+<script setup lang="ts">
     import MarketingManagerAdvertURL from '../assets/MarketingManagerAdvert.pdf';
     import MarketingManagerJDURL from '../assets/MarketingManagerJD.pdf';
     import PDFIconURL from '../assets/pdficon.png';
