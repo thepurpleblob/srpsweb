@@ -25,6 +25,7 @@
                         <li><RouterLink activeClass="active" to="/">Home</RouterLink></li>
                         <li><RouterLink activeClass="active" to="/about">About the Society</RouterLink></li>
                         <li><RouterLink activeClass="active" to="/getinvolved">Get involved</RouterLink></li>
+                        <li><RouterLink activeClass="active" to="/recruitment">Recruitment</RouterLink></li>
                     </ul>
                 </div>
             </div>
@@ -33,6 +34,7 @@
                     <li><RouterLink activeClass="active" to="/">Home</RouterLink></li>
                     <li><RouterLink activeClass="active" to="/about">About the Society</RouterLink></li>
                     <li><RouterLink activeClass="active" to="/getinvolved">Get involved</RouterLink></li>
+                    <li><RouterLink activeClass="active" to="/recruitment">Recruitment</RouterLink></li>
                 </ul>
             </div>
         </div>
