@@ -52,8 +52,8 @@
                 <li>Work for a charity in the heritage sector where all profits are reinvested into further developing the society and its people.</li>
             </ul>
             <p class="mt-4">We are looking to recruit a Bookkeeper who will contribute to the preservation of railway heritage.
-                To find out more about the role, please see the <a :href="BookeeperAdvertURL" class="font-medium text-info hover:underline">advert</a> and
-                <a :href="BookeeperJDURL" class="font-medium text-info hover:underline">job description</a>.</p>
+                To find out more about the role, please see the <a :href="BookkeeperAdvertURL" class="font-medium text-info hover:underline">advert</a> and
+                <a :href="BookkeeperJDURL" class="font-medium text-info hover:underline">job description</a>.</p>
             <p class="mt-4">For informal enquiries, or to apply for the post please contact Seonaid Scott, seonaid.scott@srps.org.uk.  </p>
 
             <ul class="mt-6">
