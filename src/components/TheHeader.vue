@@ -1,50 +1,69 @@
+<script setup lang="ts">
+    const navigationLinks = [
+        { label: 'Home', to: '/' },
+        { label: 'About the Society', to: '/about' },
+        { label: 'Get involved', to: '/getinvolved' },
+        { label: 'Recruitment', to: '/recruitment' },
+        { label: 'Reports & Documents', to: '/reports-and-documents' },
+    ];
+</script>
+
 <template>
-    <header class="bg-[#003149] text-white py-4">
+    <header class="bg-[#003149] py-4 text-white">
         <img class="mx-auto" src="@/assets/SRPSLogo200.png" alt="SRPS Logo" />
 
-        <div class="navbar">
+        <div class="navbar mx-auto max-w-6xl justify-center px-4 pt-4">
             <div class="navbar-start lg:hidden">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost">
+                    <button
+                        type="button"
+                        class="btn btn-circle btn-ghost"
+                        aria-label="Open navigation menu"
+                    >
                         <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16"
+                            />
                         </svg>
-                    </div>
+                    </button>
                     <ul
-                        tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><RouterLink activeClass="active" to="/">Home</RouterLink></li>
-                        <li><RouterLink activeClass="active" to="/about">About the Society</RouterLink></li>
-                        <li><RouterLink activeClass="active" to="/getinvolved">Get involved</RouterLink></li>
-                        <li><RouterLink activeClass="active" to="/recruitment">Recruitment</RouterLink></li>
-                        <li><RouterLink activeClass="active" to="/reports-and-documents">SRPS Reports and Documents</RouterLink></li>
+                        class="menu menu-sm dropdown-content z-[1] mt-3 w-64 rounded-box bg-base-100 p-2 text-black shadow-xl"
+                        aria-label="Main navigation"
+                    >
+                        <li v-for="link in navigationLinks" :key="link.to">
+                            <RouterLink
+                                :to="link.to"
+                                exact-active-class="bg-[#fff4bf] font-semibold text-[#003149]"
+                                class="rounded-lg"
+                            >
+                                {{ link.label }}
+                            </RouterLink>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><RouterLink activeClass="active" to="/">Home</RouterLink></li>
-                    <li><RouterLink activeClass="active" to="/about">About the Society</RouterLink></li>
-                    <li><RouterLink activeClass="active" to="/getinvolved">Get involved</RouterLink></li>
-                    <li><RouterLink activeClass="active" to="/recruitment">Recruitment</RouterLink></li>
-                    <li><RouterLink activeClass="active" to="/reports-and-documents">SRPS Reports and Documents</RouterLink></li>
+            <nav class="navbar-center hidden lg:flex" aria-label="Main navigation">
+                <ul class="flex items-center gap-2">
+                    <li v-for="link in navigationLinks" :key="link.to">
+                        <RouterLink
+                            :to="link.to"
+                            exact-active-class="bg-[#fddf51] font-semibold text-[#003149] shadow-sm"
+                            class="block rounded-full px-4 py-2 text-sm font-medium transition-colors hover:bg-white/15 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#fddf51]"
+                        >
+                            {{ link.label }}
+                        </RouterLink>
+                    </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
 </template>
-
-<style>
-.active{
-    @apply underline;
-}
-</style>
