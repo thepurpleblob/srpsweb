@@ -1,5 +1,8 @@
 <template>
     <main>
+        <p class="text-center md:container md:mx-auto px-8 py-24">No vacancies at the moment</p>
+
+        <!--
         <div class="text-justify md:container md:mx-auto px-8 py-3 border-b-2 mb-4">
             <h2 class="text-4xl font-bold mb-6">Marketing and Communications Manager</h2>
 
@@ -61,14 +64,7 @@
                 <li><img :src="PDFIconURL" class="h-[40px] inline"><a :href="BookkeeperJDURL" class="font-medium text-info hover:underline">Bookkeeper Job Description</a></li>
             </ul>
         </div>
+        -->
     </main>
 
 </template>
-
-<script setup lang="ts">
-    import MarketingManagerAdvertURL from '../assets/MarketingManagerAdvert.pdf';
-    import MarketingManagerJDURL from '../assets/MarketingManagerJD.pdf';
-    import BookkeeperAdvertURL from '../assets/BookkeeperAdvert.pdf';
-    import BookkeeperJDURL from '../assets/BookkeeperJD.pdf';
-    import PDFIconURL from '../assets/pdficon.png';
-</script>

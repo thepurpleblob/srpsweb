@@ -26,6 +26,7 @@
                         <li><RouterLink activeClass="active" to="/about">About the Society</RouterLink></li>
                         <li><RouterLink activeClass="active" to="/getinvolved">Get involved</RouterLink></li>
                         <li><RouterLink activeClass="active" to="/recruitment">Recruitment</RouterLink></li>
+                        <li><RouterLink activeClass="active" to="/reports-and-documents">SRPS Reports and Documents</RouterLink></li>
                     </ul>
                 </div>
             </div>
@@ -35,6 +36,7 @@
                     <li><RouterLink activeClass="active" to="/about">About the Society</RouterLink></li>
                     <li><RouterLink activeClass="active" to="/getinvolved">Get involved</RouterLink></li>
                     <li><RouterLink activeClass="active" to="/recruitment">Recruitment</RouterLink></li>
+                    <li><RouterLink activeClass="active" to="/reports-and-documents">SRPS Reports and Documents</RouterLink></li>
                 </ul>
             </div>
         </div>
