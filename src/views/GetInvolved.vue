@@ -1,89 +1,98 @@
 <template>
-    <main>
-
-        <!-- Become a member -->
-        <div class="text-center md:container md:mx-auto px-8 py-3 border-b-2 mb-4">
-            <h4 class="font-bold text-2xl mb-4">Get involved</h4>
-            <p>
-                Members and volunteers are the lifeblood of the Scottish Railway Preservation Society, with over 1,200
-                members and over 300 active volunteers supporting the principal aim of the Society - to preserve
-                Scotland's railway heritage. Supplemented by a small team of paid staff, the Society is managed and
-                operated almost entirely by its volunteers, whose hard work and enthusiasm has created a unique
-                and priceless working collection of Scottish railway relics.
-            </p>
-
-            <div class="flex gap-4 mt-4">
-                <div class="flex flex-col">
-                    <a :href="MFUrl" download class="btn btn-outline btn-info mb-3">Membership form</a>
-                    <p class="mb-3">
-                        If you are a UK taxpayer, please consider Gift Aid when applying.
-                    </p>
-                    <p>
-                        Print the membership form and send the completed application to the address on the form,
-                        or hand it in to the shop at Bo'ness station.
-                    </p>
-                </div>
-                <div class="text-left">
-                    <h5 class="font-bold">Become a member</h5>
-                    <p>
-                        You can support the work of the Society by becoming a member, which is open to individuals and
-                        families. The benefits include:
-                    </p>
-                    <ul class="list-disc list-inside">
-                        <li>Free admission to the Museum of Scottish Railways.</li>
-                        <li>The Society's Blastpipe magazine each quarter.</li>
-                        <li>Member vouchers for travel on the Bo'ness & Kinneil Railway (not transferrable; terms and conditions apply).</li>
-                        <li>Participation in activities subject to rules and competency.</li>
-                        <li>Adult members can vote at General Meetings.</li>
-                        <li>Adult members can be nominated for election to the Board.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Email to volunteer -->
-        <div class="text-left md:container md:mx-auto px-8 py-3 border-b-2 mb-4">
-            <div class="grid grid-cols-2 gap-4 mb-5">
-                <div class="flex flex-col">
-                    <a href="mailto:liz.paton@srps.org.uk" class="btn btn-outline btn-info mb-3">Email us to volunteer</a>
-                    <h5 class="font-bold">Become a volunteer</h5>
-                    <p>Feel like doing a bit more?</p>
-                    <ul class="list-disc list-inside">
-                        <li>Enjoy a satisfying hobby,</li>
-                        <li>try something new, whether you are skilled or unskilled,</li>
-                        <li>we welcome everyone,</li>
-                        <li>no help is too small,</li>
-                        <li>pass on your skills and knowledge for future generations,</li>
-                        <li>achieve your dream - become an Engine Driver!</li>
-                    </ul>
-                </div>
-                <div class="flex-none">
-                    <img class="my-auto" src="@/assets/SteamGala750.jpg" alt="Steam Gala volunteers" />
-                </div>
-            </div>
-            <div>
-                <p class="mb-3">
-                    Volunteering, in whatever capacity and at whatever level - is an immensely rewarding experience for people
-                    of all ages and abilities.
+    <main class="bg-gray-100 px-4 py-10 sm:px-6 sm:py-14">
+        <div class="mx-auto max-w-6xl">
+            <header class="mx-auto mb-8 max-w-3xl text-center sm:mb-10">
+                <h1 class="mb-4 text-3xl font-bold text-[#003149]">Get involved</h1>
+                <p class="leading-relaxed text-gray-700">
+                    Members and volunteers are the lifeblood of the Scottish Railway Preservation Society, with over
+                    1,200 members and over 300 active volunteers supporting the principal aim of the Society - to preserve
+                    Scotland's railway heritage. Supplemented by a small team of paid staff, the Society is managed and
+                    operated almost entirely by its volunteers, whose hard work and enthusiasm has created a unique
+                    and priceless working collection of Scottish railway relics.
                 </p>
-                <p>
-                    There is a whole range of rewarding and diverse activities available, such as:
-                </p>
-                <ul class="list-disc list-inside mb-4">
-                    <li>operating the trains and the signals,</li>
-                    <li>restoring and preserving historic locomotives and rolling stock,</li>
-                    <li>maintaing and improving the railway track, line side, bridges and buildings,</li>
-                    <li>staffing the stations, the museum, the sales shop and stands at exhibitions,</li>
-                    <li>stewarding and catering on our mailing raitour trains,</li>
-                    <li>helping Santa or Thomas on the special events days,</li>
-                    <li>plus many other tasks, many of which can be done from home such as marketing, advertising, publicity,
-                        fund raising, archiving, record keeping and accounting.
-                    </li>
-                </ul>
-                <p>
-                    <strong>We look forward to seeing you on <i>your</i> railway!</strong>
-                </p>
-            </div>
+            </header>
+
+            <section class="grid grid-cols-1 items-stretch gap-6 lg:grid-cols-2" aria-label="Ways to get involved">
+                <article class="flex flex-col overflow-hidden rounded-2xl border border-gray-200 border-t-4 border-t-[#003149] bg-white shadow-lg">
+                    <div class="p-6 sm:p-8">
+                        <h2 class="mb-3 text-2xl font-bold text-[#003149]">Become a member</h2>
+                        <p class="mb-5 text-gray-700">
+                            You can support the work of the Society by becoming a member, which is open to individuals
+                            and families. The benefits include:
+                        </p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex gap-3">
+                                <span class="font-bold text-[#49853b]" aria-hidden="true">✓</span>
+                                <span>Free admission to the Museum of Scottish Railways.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="font-bold text-[#49853b]" aria-hidden="true">✓</span>
+                                <span>The Society's Blastpipe magazine each quarter.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="font-bold text-[#49853b]" aria-hidden="true">✓</span>
+                                <span>Member vouchers for travel on the Bo'ness &amp; Kinneil Railway (not transferable; terms and conditions apply).</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="font-bold text-[#49853b]" aria-hidden="true">✓</span>
+                                <span>Participation in activities, subject to rules and competency.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="font-bold text-[#49853b]" aria-hidden="true">✓</span>
+                                <span>Adult members can vote at General Meetings and be nominated for election to the Board.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-auto border-t border-gray-200 bg-[#f3f7f8] p-6 sm:p-8">
+                        <a :href="MFUrl" download class="btn border-0 bg-[#003149] text-white hover:bg-[#004663]">
+                            Download membership form
+                        </a>
+                        <p class="mt-4 text-sm text-gray-700">
+                            If you are a UK taxpayer, please consider Gift Aid when applying. Print the form and send
+                            the completed application to the address on it, or hand it in to the shop at Bo'ness station.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="flex flex-col overflow-hidden rounded-2xl border border-gray-200 border-t-4 border-t-[#49853b] bg-white shadow-lg">
+                    <img
+                        class="h-56 w-full object-cover sm:h-64"
+                        src="@/assets/SteamGala750.jpg"
+                        alt="Volunteers at a steam gala"
+                    />
+                    <div class="flex flex-1 flex-col p-6 sm:p-8">
+                        <h2 class="mb-3 text-2xl font-bold text-[#003149]">Become a volunteer</h2>
+                        <p class="mb-4 text-gray-700">
+                            Feel like doing a bit more? We welcome everyone, whether you are skilled or unskilled, and
+                            no help is too small. Volunteering is an immensely rewarding experience for people of all
+                            ages and abilities.
+                        </p>
+                        <ul class="mb-5 list-inside list-disc space-y-2 text-gray-700">
+                            <li>Enjoy a satisfying hobby and try something new.</li>
+                            <li>Pass on your skills and knowledge for future generations.</li>
+                            <li>Achieve your dream - become an Engine Driver!</li>
+                        </ul>
+                        <p class="mb-3 text-gray-700">There is a whole range of rewarding and diverse activities available, such as:</p>
+                        <ul class="mb-6 list-inside list-disc space-y-1 text-gray-700">
+                            <li>Operating the trains and the signals.</li>
+                            <li>Restoring and preserving historic locomotives and rolling stock.</li>
+                            <li>Maintaining and improving the railway track, lineside, bridges and buildings.</li>
+                            <li>Staffing the stations, the museum, the sales shop and stands at exhibitions.</li>
+                            <li>Stewarding and catering on our mainline railtour trains.</li>
+                            <li>Helping Santa or Thomas on special event days.</li>
+                            <li>Helping from home with marketing, advertising, publicity, fundraising, archiving, record keeping and accounting.</li>
+                        </ul>
+                        <a
+                            href="mailto:liz.paton@srps.org.uk"
+                            class="btn mt-auto self-start border-0 bg-[#49853b] text-white hover:bg-[#386b2e]"
+                        >
+                            Email us to volunteer
+                        </a>
+                        <p class="mt-5 font-semibold text-[#003149]">We look forward to seeing you on your railway!</p>
+                    </div>
+                </article>
+            </section>
         </div>
     </main>
 </template>
