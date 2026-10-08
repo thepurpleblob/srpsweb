@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <header class="bg-[#003149] py-4 text-white">
+    <header class="bg-gradient-to-b from-[#003149] to-[#2b6177] py-4 text-white">
         <img class="mx-auto" src="@/assets/SRPSLogo200.png" alt="SRPS Logo" />
 
         <div class="navbar mx-auto max-w-6xl justify-center px-4 pt-4">

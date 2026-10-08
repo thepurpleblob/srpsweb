@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    <footer class="footer footer-vertical md:footer-horizontal gap-8 bg-[#003149] text-white py-6 px-2">
+    <footer class="bg-gradient-to-t from-[#003149] to-[#2b6177] text-white">
+        <div class="footer footer-vertical mx-auto w-full max-w-6xl gap-8 px-6 py-6 md:footer-horizontal">
 
         <nav>
             <h6 class="footer-title">About</h6>
@@ -55,5 +56,6 @@
             </div>
         </nav>
 
+        </div>
     </footer>
 </template>
