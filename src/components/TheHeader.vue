@@ -1,4 +1,8 @@
 <script setup lang="ts">
+    import { ref } from 'vue';
+
+    const isMenuOpen = ref(false);
+
     const navigationLinks = [
         { label: 'Home', to: '/' },
         { label: 'About the Society', to: '/about' },
@@ -14,11 +18,14 @@
 
         <div class="navbar mx-auto max-w-6xl justify-center px-4 pt-4">
             <div class="navbar-start lg:hidden">
-                <div class="dropdown">
+                <div class="relative">
                     <button
                         type="button"
                         class="btn btn-circle btn-ghost"
-                        aria-label="Open navigation menu"
+                        aria-label="Toggle navigation menu"
+                        aria-controls="mobile-navigation"
+                        :aria-expanded="isMenuOpen"
+                        @click="isMenuOpen = !isMenuOpen"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +43,9 @@
                         </svg>
                     </button>
                     <ul
-                        class="menu menu-sm dropdown-content z-[1] mt-3 w-64 rounded-box bg-base-100 p-2 text-black shadow-xl"
+                        v-if="isMenuOpen"
+                        id="mobile-navigation"
+                        class="menu menu-sm absolute left-0 top-full z-50 mt-3 w-64 rounded-box bg-base-100 p-2 text-black shadow-xl"
                         aria-label="Main navigation"
                     >
                         <li v-for="link in navigationLinks" :key="link.to">
@@ -44,6 +53,7 @@
                                 :to="link.to"
                                 exact-active-class="bg-[#fff4bf] font-semibold text-[#003149]"
                                 class="rounded-lg"
+                                @click="isMenuOpen = false"
                             >
                                 {{ link.label }}
                             </RouterLink>
