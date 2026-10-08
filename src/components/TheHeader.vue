@@ -45,14 +45,14 @@
                     <ul
                         v-if="isMenuOpen"
                         id="mobile-navigation"
-                        class="menu menu-sm absolute left-0 top-full z-50 mt-3 w-64 rounded-box bg-base-100 p-2 text-black shadow-xl"
+                        class="menu menu-sm absolute left-0 top-full z-50 mt-3 w-64 rounded-box bg-white p-2 text-[#003149] shadow-xl"
                         aria-label="Main navigation"
                     >
                         <li v-for="link in navigationLinks" :key="link.to">
                             <RouterLink
                                 :to="link.to"
                                 exact-active-class="bg-[#fff4bf] font-semibold text-[#003149]"
-                                class="rounded-lg"
+                                class="rounded-lg text-[#003149] hover:bg-gray-100"
                                 @click="isMenuOpen = false"
                             >
                                 {{ link.label }}
